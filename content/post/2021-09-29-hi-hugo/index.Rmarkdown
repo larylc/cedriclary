@@ -1,0 +1,54 @@
+---
+title: Hi Hugo
+author: ''
+date: '2021-09-29'
+slug: hi-hugo
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-09-29T20:18:21-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Here goes nothing!
+
+```{r warning=FALSE, message=FALSE}
+library(data.table)
+library(tidyverse)
+library(ggplot2)
+library(readxl)
+library(viridis)
+```
+
+
+```{r echo=FALSE}
+chess <- read_excel("Chess Data e.xlsx")
+
+magnus <- chess %>% 
+  filter(name %in% c("Carlsen", "Caruana", "Aronian", "Anand" )) %>% 
+  ggplot(aes(x= name, y = y20rating, fill= name)) + 
+  geom_col() +
+  scale_fill_viridis_d()+
+  theme_minimal()
+
+magnus
+```
+
+```{r}
+library(knitr)
+kable(head(chess))
+```
+
+```{r echo=FALSE}
+library(plotly)
+
+magnus2 <-  ggplotly(magnus)
+magnus2
+```
