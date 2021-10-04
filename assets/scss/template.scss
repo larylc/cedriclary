@@ -2,3 +2,47 @@
 .portrait-title h2 {
   font-size: 1.5rem;
 }
+
+* {
+ font-family: Baskerville;
+}
+
+
+
+.navbar{
+background: #F36C47;
+}
+
+a {
+color: #0C607E;
+}
+
+
+.featurette-icon {
+  color: #000000;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0C607E;
+    border-color: #0C607E;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    font-weight: bold !important;
+    color: #000000!important;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    color:#000000;
+}
+
+.home-section:nth-of-type(even) {
+    background-color: #F36C47;
+}
+
+
+.navbar .dropdown-item-active {
+    font-weight: bold;
+    color:  #0C607E !important;
+}
