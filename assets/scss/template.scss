@@ -3,12 +3,12 @@
   font-size: 1.5rem;
 }
 
-* {
+*, h1,h2, .section-subheading {
  font-family: Baskerville;
 }
 
 
-
+// light settings
 .navbar{
 background: #F36C47;
 }
@@ -45,4 +45,58 @@ color: #0C607E;
 .navbar .dropdown-item-active {
     font-weight: bold;
     color:  #0C607E !important;
+
+}
+
+
+
+//dark settings
+
+.dark .dropdown-item, .dark .dropdown-menu {
+    background-color: #240902 !important;
+  
+}
+
+.dark .navbar {
+    background: #F36C47;
+  
+}
+.dark .home-section {
+    background-color: #2F0C03;
+}
+
+.dark .home-section:nth-of-type(even) {
+    background-color: #240902;
+}
+
+
+.dark a {
+color: #107DA4;
+}
+
+.dark .featurette-icon {
+  color: #107DA4;
+}
+
+body.dark{
+  background:  #240902;
+}
+
+body.dark, .dark .docs-toc-link, .dark .docs-sidebar .nav>li:not(.active)>a, .dark .modal button.close, .dark input, .dark .form-control, .dark .form-control:focus {
+  background-color: #240902; 
+}
+
+ //.navbar-brand {
+//margin-right: 33.5rem;
+//}
+
+
+
+.dark pre, .dark code {
+    color: #fff;
+    background: #F36C47;
+}
+
+.dark .card {
+  background-color: #2F0C03;
 }

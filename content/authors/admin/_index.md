@@ -1,5 +1,5 @@
 ---
-bio: I love data visualizations
+bio: I am always troubleshooting something. 
 education:
   courses:
   - course: BA in Biology and Education
@@ -26,6 +26,6 @@ superuser: true
 title: Cedric Lary
 ---
 
-I am a data visualization enthusiast. I spend most of time figuring out how I can get my hands on interesting data sets so that I can answer interesting questions. 
+I am a data visualization enthusiast. I spend most of time figuring out how I can get my hands on unique data sets so that I can answer interesting questions. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
