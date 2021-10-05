@@ -16,12 +16,16 @@ social:
   link: /#contact
 - display:
     header: true
+- icon: user
+  icon_pack: fas
+  link: https://larylc.github.io/Independent-Projects-/index.html
 - icon: github
   icon_pack: fab
   link: https://github.com/larylc
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/cedric-lary-1281b01a2/
+  
 superuser: true
 title: Cedric Lary
 ---

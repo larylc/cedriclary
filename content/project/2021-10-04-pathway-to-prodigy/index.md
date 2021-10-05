@@ -5,5 +5,7 @@ image:
   caption: Graph of three of the youngest grandmasters 
   focal_point: Smart
 summary: This is a Shiny app I created to compare the rating trajectories of `chess prodigies`.
+tags:
+- Shiny
 title: Pathway to Prodigy App
 ---
