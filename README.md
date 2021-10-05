@@ -1,6 +1,7 @@
 # cedriclary
 
-cedriclary.netlify.app 
+https://cedriclary.netlify.app/
+
 
 Personal Website of Cedric Lary. 
 
