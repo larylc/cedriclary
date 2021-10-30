@@ -1,28 +1,38 @@
-// Smaller font for longer names
+/*Variables*/
+
+
+
+/*Fonts*/
+
 .portrait-title h2 {
   font-size: 1.5rem;
-}
+}// Smaller font for longer names
+
 
 *, h1,h2, .section-subheading {
  font-family: Baskerville;
 }
 
 
-// light settings
+/*Layout*/
+
+
+/*Light Theme*/
+
 .navbar{
-background: #F36C47;
+background: #F36C47; // Nav color
 }
 
 a {
-color: #0C607E;
+color: #0C607E; // links
 }
 
 
 .featurette-icon {
-  color: #000000;
+  color: #000000; // Icons in Skill Section
 }
 
-.btn-primary {
+.btn-primary { // buttons in project section
     color: #fff;
     background-color: #0C607E;
     border-color: #0C607E;
@@ -30,60 +40,68 @@ color: #0C607E;
 
 .navbar .navbar-nav .nav-link.active {
     font-weight: bold !important;
-    color: #000000!important;
+    color: #000000!important; //active page text 
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color:#000000;
+    color: red; //hover over name in navbar
 }
 
 .home-section:nth-of-type(even) {
-    background-color: #F36C47;
+    background-color: #F36C47; // section background colors 
 }
 
 
 .navbar .dropdown-item-active {
     font-weight: bold;
-    color:  #0C607E !important;
+    color:  #0C607E !important; // dropdown menu active 
 
 }
 
+/*Dark Theme*/
 
-
-//dark settings
 
 .dark .dropdown-item, .dark .dropdown-menu {
     background-color: #240902 !important;
-  
-}
+} // dropdown menu color 
 
 .dark .navbar {
-    background: #F36C47;
+    background: #F36C47; // navbar color
   
 }
 .dark .home-section {
-    background-color: #2F0C03;
+    background-color: #2F0C03; // home section color
 }
 
 .dark .home-section:nth-of-type(even) {
-    background-color: #240902;
+    background-color: #240902; // every other section color
 }
 
 
 .dark a {
 color: #107DA4;
-}
+} // links 
 
 .dark .featurette-icon {
   color: #107DA4;
-}
+} // skill section icons
 
 body.dark{
-  background:  #240902;
+  background: #240902;
 }
 
 body.dark, .dark .docs-toc-link, .dark .docs-sidebar .nav>li:not(.active)>a, .dark .modal button.close, .dark input, .dark .form-control, .dark .form-control:focus {
-  background-color: #240902; 
+  background-color: #240902; // post, footer, contact form background
+}
+
+
+.dark pre, .dark code {
+    color: #fff;
+    background: #F36C47; // code blocks
+}
+
+.dark .card {
+  background-color: #2F0C03; //project cards
 }
 
  //.navbar-brand {
@@ -92,11 +110,4 @@ body.dark, .dark .docs-toc-link, .dark .docs-sidebar .nav>li:not(.active)>a, .da
 
 
 
-.dark pre, .dark code {
-    color: #fff;
-    background: #F36C47;
-}
 
-.dark .card {
-  background-color: #2F0C03;
-}
